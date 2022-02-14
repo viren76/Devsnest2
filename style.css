@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(255, 208, 0);
+    cursor:url("https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png"),auto;
+    
+}
+.navb{
+    display: flex;
+    flex-direction: row-reverse;
+}
+li{
+    margin:5px 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+/*li:hover{
+    text-decoration: underline;
+    transition:ease-in;
+    transition-duration: 5;
+}z
+*/
+ul{
+    margin-inline-start: 500px;
+    margin-top: 20px;
+}
+.f{
+    display:flex;
+    height: 100vh;
+}
+
+li {
+    transition: 300ms;
+    border-bottom: 2px solid transparent;
+  }
+  
+  li:hover {
+    border-color: yellow;
+    /*cursor: pointer;*/
+  }
+  .mlogo{
+      width: 50%;
+      height: 100%;
+  }
+  .mlogo>img{
+      background-color: rgb(212, 4, 4);
+      padding:7px;
+      margin:7px;
+      margin-inline-start: 300px;
+      border-radius: 5px;
+  }
+  nav>ul>li>a{
+    text-decoration: none;  
+    color: black;
+    text-emphasis: 10px;
+  }
+  /*.burger{
+    margin-inline-start: 700px;
+    margin-top: 50px;
+    height: 500px;
+    width: 700px;
+  }
+  .burger>img{
+      height: inherit;
+      width: inherit;
+  }*/
+
+  .one{
+    z-index: 0;
+  }
+  .two{
+      z-index: 1;
+  }
+  .f{
+      background-color: aqua;
+  }
+  .back{
+      background-color: royalblue;
+      background-image: url("./burger.jpg");
+      margin-inline-start: 150px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      height: stretch;
+      width: 50%;
+  }
+  .info{
+      margin:160px 100px 100px 100px;
+      
+  }
+  .info>h1{
+      font-size: 57px;
+  }
+  .btn1{
+      margin-left: 100px;
+      width: 50px;
+      height: 50px;
+      background-color: #f6f6f6;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  .btn2{
+      margin-left: 50px;
+      cursor: pointer;
+      border-radius: 50%;
+      width:50px;
+      height: 50px;
+      background-color:red;
+  }
+  .btns{
+      margin-top: 100px;
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: row;
+  }
